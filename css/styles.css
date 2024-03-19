@@ -33,6 +33,9 @@ a {
 .nav-list-element:hover {
     color: #404bbf;
 }
+#nav-list-studio:focus {
+    color: #404bbf;
+}
 #nav-list-studio:active {
     color: #404bbf;
 }
