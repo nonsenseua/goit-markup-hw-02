@@ -23,14 +23,17 @@ a {
 .logo-span {
     color: #2e2f42;
 }
-.nav-list>li>a {
+.nav-list-element {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.nav-list>li>a:hover {
+.nav-list-element:hover {
+    color: #404bbf;
+}
+#nav-list-studio:active {
     color: #404bbf;
 }
 
@@ -40,13 +43,13 @@ a {
     letter-spacing: 0.02em;
     font-style: normal
 }
-.address-mail{
+.address-list-element {
     color: #434455
 }
-.address-list:hover {
+.address-list-element:hover {
     color: #404bbf;
 }
-.address-mail:focus {
+.address-list-element:focus {
     color: #404bbf;
 }
     
@@ -149,4 +152,16 @@ background-color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd; 
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.footer-logo-span {
+    color: #f4f4fd;
 }
